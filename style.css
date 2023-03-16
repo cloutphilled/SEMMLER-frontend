@@ -10,11 +10,14 @@
 
 .section{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
+    max-width: 1440px;
     width: 1440px;
-    height: 660px;
+    height: auto;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -22,19 +25,22 @@
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    padding: 0px;
-    width: 1440px;
-    height: 660px;
+    padding: 0;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
 .frame1{
-    width: 560px;
-    height: 92px;
+    max-width: 560px;
+    height: auto;
     font-family: 'Seat Bcn bold';
     font-style: normal;
     font-weight: 750;
@@ -65,11 +71,12 @@
 
 .image1 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 1440px;
-    height: 660px;
+    width: 100%;
+    height: auto;
     flex: none;
     order: 0;
     flex-grow: 1;
